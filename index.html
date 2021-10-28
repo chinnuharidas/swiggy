@@ -18,64 +18,49 @@
 	<body class="m-0 p-0">
 		<header class="white-bkd">
 			<div class="mx-auto thirdfourth">
-			<nav class="navbar navbar-expand-lg navbar-light p-3 m-0">
-				<div class="container-fluid">
-					<a class="navbar-brand zoom" href="#">
+				<nav class="navbar navbar-expand-lg navbar-light bg-white">
+					<a class="navbar-brand hover-primary" href="#">
 						<img src="images/swiggy-logo.webp" class="zoom" alt="" width="40" height="40">
+						<span class="d-inline-block text-truncate fw-bolder main-address">
+							<u>Kubz</u>
+						</span>
+						<span class="d-inline-block text-truncate address-truncate">
+							2115, Padamugal...
+						</span>
+						<i class="fas fa-chevron-down primary-color text-truncate"></i>
 					</a>
-					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
+					<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
 					</button>
-					<div class="collapse navbar-collapse" id="navbarSupportedContent">
-						<ul class="navbar-nav mr-auto mb-2 mb-lg-0">
-							<li class="nav-item hover-primary">
-								<a class="nav-link active" aria-current="page" href="#">
-									<span class="d-inline-block text-truncate fw-bolder main-address">
-									<u>Kubz</u>
-								</span>
-								<span class="d-inline-block text-truncate address-truncate">
-									2115, Padamugal - Palachuvadu Rd, Sat....
-								</span>
-								<i class="fas fa-chevron-down primary-color text-truncate"></i>
-								</a>
+					<div class="collapse navbar-collapse" id="navbarText">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item active">
+								<a class="nav-link hover-cls" href="#">
+									<i class="fas fa-search"></i>
+									Search
+									<span class="sr-only">(current)</span></a>
+							</li>
+							<li class="nav-item active">
+								<a class="nav-link hover-cls" href="#">
+									<i class="fa fa-percent"></i>
+									Offers<sup class="primary-color">NEW</sup></a>
+							</li>
+							<li class="nav-item active">
+								<a class="nav-link hover-cls" href="#">
+									<i class="far fa-life-ring"></i>
+									Help</a>
+							</li>
+							<li class="nav-item active">
+								<a class="nav-link hover-cls" href="#">
+									<i class="far fa-user"></i>
+									Chinnu</a>
+							</li>
+							<li class="nav-item active">
+								<a class="nav-link hover-cls" href="#">
+									<i class="fas fa-shopping-cart"></i>
+									Cart</a>
 							</li>
 						</ul>
-						<div class="d-flex">
-							<ul class="navbar-nav mr-auto mb-2 mb-lg-0">
-								<li class="nav-item ml-2">
-									<a class="nav-link active hover-cls" aria-current="page" href="#">
-										<i class="fas fa-search"></i>
-										Search
-									</a>
-								</li>
-								<li class="nav-item ml-2">
-									<a class="nav-link active hover-cls" href="#">
-									<i class="fa fa-percent"></i>
-									Offers<sup class="primary-color">NEW</sup>
-								</a>
-								</li>
-								<li class="nav-item ml-2">
-									<a class="nav-link active hover-cls" href="#">
-										<i class="far fa-life-ring"></i>
-										Help
-									</a>
-								</li>
-								<li class="nav-item ml-2">
-									<a class="nav-link active hover-cls" href="#">
-										<i class="far fa-user"></i>
-										Chinnu
-									</a>
-								</li>
-
-								<li class="nav-item ml-3">
-									<a class="nav-link active hover-cls" href="#">
-										<i class="fas fa-shopping-cart"></i>
-										Cart
-									</a>
-								</li>
-							</ul>				
-						</div>
-					</div>
 					</div>
 				</nav>
 			</div>
@@ -159,10 +144,10 @@
 						<a class="navbar-brand pl-3" href="#">
 							<h3 class="font-weight-bolder">312 Restaurants</h3>
 						</a>
-						<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+						<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarRest" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
 						</button>
-						<div class="collapse navbar-collapse" id="navbarText">
+						<div class="collapse navbar-collapse" id="navbarRest">
 							<ul class="navbar-nav ml-auto">
 								<li class="nav-item active">
 									<a class="nav-link" href="#">Relevance<span class="sr-only">(current)</span></a>
@@ -195,10 +180,771 @@
 				<div class="container-fluid">
 					<div class="row">
 						
-						<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-12 mb-2 mt-2 parent_div">
+						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-12 mb-2 mt-2 parent_div">
 							<div class="card background-hover p-4">
 								<div class="promoted-div text-wrap">PROMOTED</div>
 								<img src="images/restaurants/1" class="card-img-top" alt="...">
+								<div class="card-body p-0">
+									<div class="card-text pt-1">
+										<p class="text-left font-weight-bold mb-0">Ceylon Bake House</p>
+										<p class="mb-0 grey-text"><small>South Indian, Chinese, North Indian, Biryani</small></p>
+
+
+										<div class="pr-1 pl-1 pt-2 text-uppercase text-small">
+											<span class="rounded green-bkd pr-3 pl-3">
+												<i class="fa fa-star-o"></i>
+												<small>4.1</small>
+											</span>
+											<span class="pr-2 pl-2">.</span>
+											<span class="pr-1 pl-1"><small>37 MINS</small></span>
+											<span class="pr-2 pl-2">.</span>
+											<span class="pr-1 pl-1"><small>₹500 FOR two</small></span>
+										  </div>
+									</div>
+
+									<hr>
+
+									<div class="try-new pl-3">
+										60% off | Use TRYNEW
+									</div>
+
+									<div class="row quick_div" style="visibility: hidden;">
+										<div class="col-md-12 col-12 text-center">
+											<hr>
+											<span class="cursor-point font-weight-bold quick-view">QUICK VIEW</span>
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- 2 -->
+						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-12 mb-2 mt-2 parent_div">
+							<div class="card background-hover p-4">
+								<div class="promoted-div text-wrap">PROMOTED</div>
+								<img src="images/restaurants/2" class="card-img-top" alt="...">
+								<div class="card-body p-0">
+									<div class="card-text pt-1">
+										<p class="text-left font-weight-bold mb-0">Ceylon Bake House</p>
+										<p class="mb-0 grey-text"><small>South Indian, Chinese, North Indian, Biryani</small></p>
+
+
+										<div class="pr-1 pl-1 pt-2 text-uppercase text-small">
+											<span class="rounded green-bkd pr-3 pl-3">
+												<i class="fa fa-star-o"></i>
+												<small>4.1</small>
+											</span>
+											<span class="pr-2 pl-2">.</span>
+											<span class="pr-1 pl-1"><small>37 MINS</small></span>
+											<span class="pr-2 pl-2">.</span>
+											<span class="pr-1 pl-1"><small>₹500 FOR two</small></span>
+										  </div>
+									</div>
+
+									<hr>
+
+									<div class="try-new pl-3">
+										60% off | Use TRYNEW
+									</div>
+
+									<div class="row quick_div" style="visibility: hidden;">
+										<div class="col-md-12 col-12 text-center">
+											<hr>
+											<span class="cursor-point font-weight-bold quick-view">QUICK VIEW</span>
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- 3 -->
+						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-12 mb-2 mt-2 parent_div">
+							<div class="card background-hover p-4">
+								<div class="promoted-div text-wrap">PROMOTED</div>
+								<img src="images/restaurants/3" class="card-img-top" alt="...">
+								<div class="card-body p-0">
+									<div class="card-text pt-1">
+										<p class="text-left font-weight-bold mb-0">Ceylon Bake House</p>
+										<p class="mb-0 grey-text"><small>South Indian, Chinese, North Indian, Biryani</small></p>
+
+
+										<div class="pr-1 pl-1 pt-2 text-uppercase text-small">
+											<span class="rounded green-bkd pr-3 pl-3">
+												<i class="fa fa-star-o"></i>
+												<small>4.1</small>
+											</span>
+											<span class="pr-2 pl-2">.</span>
+											<span class="pr-1 pl-1"><small>37 MINS</small></span>
+											<span class="pr-2 pl-2">.</span>
+											<span class="pr-1 pl-1"><small>₹500 FOR two</small></span>
+										  </div>
+									</div>
+
+									<hr>
+
+									<div class="try-new pl-3">
+										60% off | Use TRYNEW
+									</div>
+
+									<div class="row quick_div" style="visibility: hidden;">
+										<div class="col-md-12 col-12 text-center">
+											<hr>
+											<span class="cursor-point font-weight-bold quick-view">QUICK VIEW</span>
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- 4 -->
+						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-12 mb-2 mt-2 parent_div">
+							<div class="card background-hover p-4">
+								<div class="promoted-div text-wrap">PROMOTED</div>
+								<img src="images/restaurants/4" class="card-img-top" alt="...">
+								<div class="card-body p-0">
+									<div class="card-text pt-1">
+										<p class="text-left font-weight-bold mb-0">Ceylon Bake House</p>
+										<p class="mb-0 grey-text"><small>South Indian, Chinese, North Indian, Biryani</small></p>
+
+
+										<div class="pr-1 pl-1 pt-2 text-uppercase text-small">
+											<span class="rounded green-bkd pr-3 pl-3">
+												<i class="fa fa-star-o"></i>
+												<small>4.1</small>
+											</span>
+											<span class="pr-2 pl-2">.</span>
+											<span class="pr-1 pl-1"><small>37 MINS</small></span>
+											<span class="pr-2 pl-2">.</span>
+											<span class="pr-1 pl-1"><small>₹500 FOR two</small></span>
+										  </div>
+									</div>
+
+									<hr>
+
+									<div class="try-new pl-3">
+										60% off | Use TRYNEW
+									</div>
+
+									<div class="row quick_div" style="visibility: hidden;">
+										<div class="col-md-12 col-12 text-center">
+											<hr>
+											<span class="cursor-point font-weight-bold quick-view">QUICK VIEW</span>
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- 5 -->
+						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-12 mb-2 mt-2 parent_div">
+							<div class="card background-hover p-4">
+								<div class="promoted-div text-wrap">PROMOTED</div>
+								<img src="images/restaurants/5" class="card-img-top" alt="...">
+								<div class="card-body p-0">
+									<div class="card-text pt-1">
+										<p class="text-left font-weight-bold mb-0">Ceylon Bake House</p>
+										<p class="mb-0 grey-text"><small>South Indian, Chinese, North Indian, Biryani</small></p>
+
+
+										<div class="pr-1 pl-1 pt-2 text-uppercase text-small">
+											<span class="rounded green-bkd pr-3 pl-3">
+												<i class="fa fa-star-o"></i>
+												<small>4.1</small>
+											</span>
+											<span class="pr-2 pl-2">.</span>
+											<span class="pr-1 pl-1"><small>37 MINS</small></span>
+											<span class="pr-2 pl-2">.</span>
+											<span class="pr-1 pl-1"><small>₹500 FOR two</small></span>
+										  </div>
+									</div>
+
+									<hr>
+
+									<div class="try-new pl-3">
+										60% off | Use TRYNEW
+									</div>
+
+									<div class="row quick_div" style="visibility: hidden;">
+										<div class="col-md-12 col-12 text-center">
+											<hr>
+											<span class="cursor-point font-weight-bold quick-view">QUICK VIEW</span>
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- 6 -->
+						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-12 mb-2 mt-2 parent_div">
+							<div class="card background-hover p-4">
+								<div class="promoted-div text-wrap">PROMOTED</div>
+								<img src="images/restaurants/6" class="card-img-top" alt="...">
+								<div class="card-body p-0">
+									<div class="card-text pt-1">
+										<p class="text-left font-weight-bold mb-0">Ceylon Bake House</p>
+										<p class="mb-0 grey-text"><small>South Indian, Chinese, North Indian, Biryani</small></p>
+
+
+										<div class="pr-1 pl-1 pt-2 text-uppercase text-small">
+											<span class="rounded green-bkd pr-3 pl-3">
+												<i class="fa fa-star-o"></i>
+												<small>4.1</small>
+											</span>
+											<span class="pr-2 pl-2">.</span>
+											<span class="pr-1 pl-1"><small>37 MINS</small></span>
+											<span class="pr-2 pl-2">.</span>
+											<span class="pr-1 pl-1"><small>₹500 FOR two</small></span>
+										  </div>
+									</div>
+
+									<hr>
+
+									<div class="try-new pl-3">
+										60% off | Use TRYNEW
+									</div>
+
+									<div class="row quick_div" style="visibility: hidden;">
+										<div class="col-md-12 col-12 text-center">
+											<hr>
+											<span class="cursor-point font-weight-bold quick-view">QUICK VIEW</span>
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- 7 -->
+						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-12 mb-2 mt-2 parent_div">
+							<div class="card background-hover p-4">
+								<div class="promoted-div text-wrap">PROMOTED</div>
+								<img src="images/restaurants/7" class="card-img-top" alt="...">
+								<div class="card-body p-0">
+									<div class="card-text pt-1">
+										<p class="text-left font-weight-bold mb-0">Ceylon Bake House</p>
+										<p class="mb-0 grey-text"><small>South Indian, Chinese, North Indian, Biryani</small></p>
+
+
+										<div class="pr-1 pl-1 pt-2 text-uppercase text-small">
+											<span class="rounded green-bkd pr-3 pl-3">
+												<i class="fa fa-star-o"></i>
+												<small>4.1</small>
+											</span>
+											<span class="pr-2 pl-2">.</span>
+											<span class="pr-1 pl-1"><small>37 MINS</small></span>
+											<span class="pr-2 pl-2">.</span>
+											<span class="pr-1 pl-1"><small>₹500 FOR two</small></span>
+										  </div>
+									</div>
+
+									<hr>
+
+									<div class="try-new pl-3">
+										60% off | Use TRYNEW
+									</div>
+
+									<div class="row quick_div" style="visibility: hidden;">
+										<div class="col-md-12 col-12 text-center">
+											<hr>
+											<span class="cursor-point font-weight-bold quick-view">QUICK VIEW</span>
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+						<!-- 8 -->
+						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-12 mb-2 mt-2 parent_div">
+							<div class="card background-hover p-4">
+								<div class="promoted-div text-wrap">PROMOTED</div>
+								<img src="images/restaurants/8" class="card-img-top" alt="...">
+								<div class="card-body p-0">
+									<div class="card-text pt-1">
+										<p class="text-left font-weight-bold mb-0">Ceylon Bake House</p>
+										<p class="mb-0 grey-text"><small>South Indian, Chinese, North Indian, Biryani</small></p>
+
+
+										<div class="pr-1 pl-1 pt-2 text-uppercase text-small">
+											<span class="rounded green-bkd pr-3 pl-3">
+												<i class="fa fa-star-o"></i>
+												<small>4.1</small>
+											</span>
+											<span class="pr-2 pl-2">.</span>
+											<span class="pr-1 pl-1"><small>37 MINS</small></span>
+											<span class="pr-2 pl-2">.</span>
+											<span class="pr-1 pl-1"><small>₹500 FOR two</small></span>
+										  </div>
+									</div>
+
+									<hr>
+
+									<div class="try-new pl-3">
+										60% off | Use TRYNEW
+									</div>
+
+									<div class="row quick_div" style="visibility: hidden;">
+										<div class="col-md-12 col-12 text-center">
+											<hr>
+											<span class="cursor-point font-weight-bold quick-view">QUICK VIEW</span>
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- 9 -->
+						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-12 mb-2 mt-2 parent_div">
+							<div class="card background-hover p-4">
+								<div class="promoted-div text-wrap">PROMOTED</div>
+								<img src="images/restaurants/9" class="card-img-top" alt="...">
+								<div class="card-body p-0">
+									<div class="card-text pt-1">
+										<p class="text-left font-weight-bold mb-0">Ceylon Bake House</p>
+										<p class="mb-0 grey-text"><small>South Indian, Chinese, North Indian, Biryani</small></p>
+
+
+										<div class="pr-1 pl-1 pt-2 text-uppercase text-small">
+											<span class="rounded green-bkd pr-3 pl-3">
+												<i class="fa fa-star-o"></i>
+												<small>4.1</small>
+											</span>
+											<span class="pr-2 pl-2">.</span>
+											<span class="pr-1 pl-1"><small>37 MINS</small></span>
+											<span class="pr-2 pl-2">.</span>
+											<span class="pr-1 pl-1"><small>₹500 FOR two</small></span>
+										  </div>
+									</div>
+
+									<hr>
+
+									<div class="try-new pl-3">
+										60% off | Use TRYNEW
+									</div>
+
+									<div class="row quick_div" style="visibility: hidden;">
+										<div class="col-md-12 col-12 text-center">
+											<hr>
+											<span class="cursor-point font-weight-bold quick-view">QUICK VIEW</span>
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- 10 -->
+						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-12 mb-2 mt-2 parent_div">
+							<div class="card background-hover p-4">
+								<div class="promoted-div text-wrap">PROMOTED</div>
+								<img src="images/restaurants/10" class="card-img-top" alt="...">
+								<div class="card-body p-0">
+									<div class="card-text pt-1">
+										<p class="text-left font-weight-bold mb-0">Ceylon Bake House</p>
+										<p class="mb-0 grey-text"><small>South Indian, Chinese, North Indian, Biryani</small></p>
+
+
+										<div class="pr-1 pl-1 pt-2 text-uppercase text-small">
+											<span class="rounded green-bkd pr-3 pl-3">
+												<i class="fa fa-star-o"></i>
+												<small>4.1</small>
+											</span>
+											<span class="pr-2 pl-2">.</span>
+											<span class="pr-1 pl-1"><small>37 MINS</small></span>
+											<span class="pr-2 pl-2">.</span>
+											<span class="pr-1 pl-1"><small>₹500 FOR two</small></span>
+										  </div>
+									</div>
+
+									<hr>
+
+									<div class="try-new pl-3">
+										60% off | Use TRYNEW
+									</div>
+
+									<div class="row quick_div" style="visibility: hidden;">
+										<div class="col-md-12 col-12 text-center">
+											<hr>
+											<span class="cursor-point font-weight-bold quick-view">QUICK VIEW</span>
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- 11 -->
+						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-12 mb-2 mt-2 parent_div">
+							<div class="card background-hover p-4">
+								<div class="promoted-div text-wrap">PROMOTED</div>
+								<img src="images/restaurants/11" class="card-img-top" alt="...">
+								<div class="card-body p-0">
+									<div class="card-text pt-1">
+										<p class="text-left font-weight-bold mb-0">Ceylon Bake House</p>
+										<p class="mb-0 grey-text"><small>South Indian, Chinese, North Indian, Biryani</small></p>
+
+
+										<div class="pr-1 pl-1 pt-2 text-uppercase text-small">
+											<span class="rounded green-bkd pr-3 pl-3">
+												<i class="fa fa-star-o"></i>
+												<small>4.1</small>
+											</span>
+											<span class="pr-2 pl-2">.</span>
+											<span class="pr-1 pl-1"><small>37 MINS</small></span>
+											<span class="pr-2 pl-2">.</span>
+											<span class="pr-1 pl-1"><small>₹500 FOR two</small></span>
+										  </div>
+									</div>
+
+									<hr>
+
+									<div class="try-new pl-3">
+										60% off | Use TRYNEW
+									</div>
+
+									<div class="row quick_div" style="visibility: hidden;">
+										<div class="col-md-12 col-12 text-center">
+											<hr>
+											<span class="cursor-point font-weight-bold quick-view">QUICK VIEW</span>
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- 12 -->
+						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-12 mb-2 mt-2 parent_div">
+							<div class="card background-hover p-4">
+								<div class="promoted-div text-wrap">PROMOTED</div>
+								<img src="images/restaurants/12" class="card-img-top" alt="...">
+								<div class="card-body p-0">
+									<div class="card-text pt-1">
+										<p class="text-left font-weight-bold mb-0">Ceylon Bake House</p>
+										<p class="mb-0 grey-text"><small>South Indian, Chinese, North Indian, Biryani</small></p>
+
+
+										<div class="pr-1 pl-1 pt-2 text-uppercase text-small">
+											<span class="rounded green-bkd pr-3 pl-3">
+												<i class="fa fa-star-o"></i>
+												<small>4.1</small>
+											</span>
+											<span class="pr-2 pl-2">.</span>
+											<span class="pr-1 pl-1"><small>37 MINS</small></span>
+											<span class="pr-2 pl-2">.</span>
+											<span class="pr-1 pl-1"><small>₹500 FOR two</small></span>
+										  </div>
+									</div>
+
+									<hr>
+
+									<div class="try-new pl-3">
+										60% off | Use TRYNEW
+									</div>
+
+									<div class="row quick_div" style="visibility: hidden;">
+										<div class="col-md-12 col-12 text-center">
+											<hr>
+											<span class="cursor-point font-weight-bold quick-view">QUICK VIEW</span>
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- 13 -->
+						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-12 mb-2 mt-2 parent_div">
+							<div class="card background-hover p-4">
+								<div class="promoted-div text-wrap">PROMOTED</div>
+								<img src="images/restaurants/13" class="card-img-top" alt="...">
+								<div class="card-body p-0">
+									<div class="card-text pt-1">
+										<p class="text-left font-weight-bold mb-0">Ceylon Bake House</p>
+										<p class="mb-0 grey-text"><small>South Indian, Chinese, North Indian, Biryani</small></p>
+
+
+										<div class="pr-1 pl-1 pt-2 text-uppercase text-small">
+											<span class="rounded green-bkd pr-3 pl-3">
+												<i class="fa fa-star-o"></i>
+												<small>4.1</small>
+											</span>
+											<span class="pr-2 pl-2">.</span>
+											<span class="pr-1 pl-1"><small>37 MINS</small></span>
+											<span class="pr-2 pl-2">.</span>
+											<span class="pr-1 pl-1"><small>₹500 FOR two</small></span>
+										  </div>
+									</div>
+
+									<hr>
+
+									<div class="try-new pl-3">
+										60% off | Use TRYNEW
+									</div>
+
+									<div class="row quick_div" style="visibility: hidden;">
+										<div class="col-md-12 col-12 text-center">
+											<hr>
+											<span class="cursor-point font-weight-bold quick-view">QUICK VIEW</span>
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- 14 -->
+						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-12 mb-2 mt-2 parent_div">
+							<div class="card background-hover p-4">
+								<div class="promoted-div text-wrap">PROMOTED</div>
+								<img src="images/restaurants/14" class="card-img-top" alt="...">
+								<div class="card-body p-0">
+									<div class="card-text pt-1">
+										<p class="text-left font-weight-bold mb-0">Ceylon Bake House</p>
+										<p class="mb-0 grey-text"><small>South Indian, Chinese, North Indian, Biryani</small></p>
+
+
+										<div class="pr-1 pl-1 pt-2 text-uppercase text-small">
+											<span class="rounded green-bkd pr-3 pl-3">
+												<i class="fa fa-star-o"></i>
+												<small>4.1</small>
+											</span>
+											<span class="pr-2 pl-2">.</span>
+											<span class="pr-1 pl-1"><small>37 MINS</small></span>
+											<span class="pr-2 pl-2">.</span>
+											<span class="pr-1 pl-1"><small>₹500 FOR two</small></span>
+										  </div>
+									</div>
+
+									<hr>
+
+									<div class="try-new pl-3">
+										60% off | Use TRYNEW
+									</div>
+
+									<div class="row quick_div" style="visibility: hidden;">
+										<div class="col-md-12 col-12 text-center">
+											<hr>
+											<span class="cursor-point font-weight-bold quick-view">QUICK VIEW</span>
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- 15 -->
+						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-12 mb-2 mt-2 parent_div">
+							<div class="card background-hover p-4">
+								<div class="promoted-div text-wrap">PROMOTED</div>
+								<img src="images/restaurants/15" class="card-img-top" alt="...">
+								<div class="card-body p-0">
+									<div class="card-text pt-1">
+										<p class="text-left font-weight-bold mb-0">Ceylon Bake House</p>
+										<p class="mb-0 grey-text"><small>South Indian, Chinese, North Indian, Biryani</small></p>
+
+
+										<div class="pr-1 pl-1 pt-2 text-uppercase text-small">
+											<span class="rounded green-bkd pr-3 pl-3">
+												<i class="fa fa-star-o"></i>
+												<small>4.1</small>
+											</span>
+											<span class="pr-2 pl-2">.</span>
+											<span class="pr-1 pl-1"><small>37 MINS</small></span>
+											<span class="pr-2 pl-2">.</span>
+											<span class="pr-1 pl-1"><small>₹500 FOR two</small></span>
+										  </div>
+									</div>
+
+									<hr>
+
+									<div class="try-new pl-3">
+										60% off | Use TRYNEW
+									</div>
+
+									<div class="row quick_div" style="visibility: hidden;">
+										<div class="col-md-12 col-12 text-center">
+											<hr>
+											<span class="cursor-point font-weight-bold quick-view">QUICK VIEW</span>
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- 16 -->
+						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-12 mb-2 mt-2 parent_div">
+							<div class="card background-hover p-4">
+								<div class="promoted-div text-wrap">PROMOTED</div>
+								<img src="images/restaurants/16" class="card-img-top" alt="...">
+								<div class="card-body p-0">
+									<div class="card-text pt-1">
+										<p class="text-left font-weight-bold mb-0">Ceylon Bake House</p>
+										<p class="mb-0 grey-text"><small>South Indian, Chinese, North Indian, Biryani</small></p>
+
+
+										<div class="pr-1 pl-1 pt-2 text-uppercase text-small">
+											<span class="rounded green-bkd pr-3 pl-3">
+												<i class="fa fa-star-o"></i>
+												<small>4.1</small>
+											</span>
+											<span class="pr-2 pl-2">.</span>
+											<span class="pr-1 pl-1"><small>37 MINS</small></span>
+											<span class="pr-2 pl-2">.</span>
+											<span class="pr-1 pl-1"><small>₹500 FOR two</small></span>
+										  </div>
+									</div>
+
+									<hr>
+
+									<div class="try-new pl-3">
+										60% off | Use TRYNEW
+									</div>
+
+									<div class="row quick_div" style="visibility: hidden;">
+										<div class="col-md-12 col-12 text-center">
+											<hr>
+											<span class="cursor-point font-weight-bold quick-view">QUICK VIEW</span>
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- 17 -->
+						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-12 mb-2 mt-2 parent_div">
+							<div class="card background-hover p-4">
+								<div class="promoted-div text-wrap">PROMOTED</div>
+								<img src="images/restaurants/17" class="card-img-top" alt="...">
+								<div class="card-body p-0">
+									<div class="card-text pt-1">
+										<p class="text-left font-weight-bold mb-0">Ceylon Bake House</p>
+										<p class="mb-0 grey-text"><small>South Indian, Chinese, North Indian, Biryani</small></p>
+
+
+										<div class="pr-1 pl-1 pt-2 text-uppercase text-small">
+											<span class="rounded green-bkd pr-3 pl-3">
+												<i class="fa fa-star-o"></i>
+												<small>4.1</small>
+											</span>
+											<span class="pr-2 pl-2">.</span>
+											<span class="pr-1 pl-1"><small>37 MINS</small></span>
+											<span class="pr-2 pl-2">.</span>
+											<span class="pr-1 pl-1"><small>₹500 FOR two</small></span>
+										  </div>
+									</div>
+
+									<hr>
+
+									<div class="try-new pl-3">
+										60% off | Use TRYNEW
+									</div>
+
+									<div class="row quick_div" style="visibility: hidden;">
+										<div class="col-md-12 col-12 text-center">
+											<hr>
+											<span class="cursor-point font-weight-bold quick-view">QUICK VIEW</span>
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- 18 -->
+						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-12 mb-2 mt-2 parent_div">
+							<div class="card background-hover p-4">
+								<div class="promoted-div text-wrap">PROMOTED</div>
+								<img src="images/restaurants/18" class="card-img-top" alt="...">
+								<div class="card-body p-0">
+									<div class="card-text pt-1">
+										<p class="text-left font-weight-bold mb-0">Ceylon Bake House</p>
+										<p class="mb-0 grey-text"><small>South Indian, Chinese, North Indian, Biryani</small></p>
+
+
+										<div class="pr-1 pl-1 pt-2 text-uppercase text-small">
+											<span class="rounded green-bkd pr-3 pl-3">
+												<i class="fa fa-star-o"></i>
+												<small>4.1</small>
+											</span>
+											<span class="pr-2 pl-2">.</span>
+											<span class="pr-1 pl-1"><small>37 MINS</small></span>
+											<span class="pr-2 pl-2">.</span>
+											<span class="pr-1 pl-1"><small>₹500 FOR two</small></span>
+										  </div>
+									</div>
+
+									<hr>
+
+									<div class="try-new pl-3">
+										60% off | Use TRYNEW
+									</div>
+
+									<div class="row quick_div" style="visibility: hidden;">
+										<div class="col-md-12 col-12 text-center">
+											<hr>
+											<span class="cursor-point font-weight-bold quick-view">QUICK VIEW</span>
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- 19 -->
+						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-12 mb-2 mt-2 parent_div">
+							<div class="card background-hover p-4">
+								<div class="promoted-div text-wrap">PROMOTED</div>
+								<img src="images/restaurants/19" class="card-img-top" alt="...">
+								<div class="card-body p-0">
+									<div class="card-text pt-1">
+										<p class="text-left font-weight-bold mb-0">Ceylon Bake House</p>
+										<p class="mb-0 grey-text"><small>South Indian, Chinese, North Indian, Biryani</small></p>
+
+
+										<div class="pr-1 pl-1 pt-2 text-uppercase text-small">
+											<span class="rounded green-bkd pr-3 pl-3">
+												<i class="fa fa-star-o"></i>
+												<small>4.1</small>
+											</span>
+											<span class="pr-2 pl-2">.</span>
+											<span class="pr-1 pl-1"><small>37 MINS</small></span>
+											<span class="pr-2 pl-2">.</span>
+											<span class="pr-1 pl-1"><small>₹500 FOR two</small></span>
+										  </div>
+									</div>
+
+									<hr>
+
+									<div class="try-new pl-3">
+										60% off | Use TRYNEW
+									</div>
+
+									<div class="row quick_div" style="visibility: hidden;">
+										<div class="col-md-12 col-12 text-center">
+											<hr>
+											<span class="cursor-point font-weight-bold quick-view">QUICK VIEW</span>
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- 20 -->
+						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-12 mb-2 mt-2 parent_div">
+							<div class="card background-hover p-4">
+								<div class="promoted-div text-wrap">PROMOTED</div>
+								<img src="images/restaurants/20" class="card-img-top" alt="...">
 								<div class="card-body p-0">
 									<div class="card-text pt-1">
 										<p class="text-left font-weight-bold mb-0">Ceylon Bake House</p>
